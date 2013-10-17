@@ -1,0 +1,868 @@
+/* ==========================================================================
+   Kitten Assassins Main Styles
+   ========================================================================== */
+body {
+    background-color: #000000;
+    color: #4C4C4C;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+img {
+    border: medium none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper_outer {
+    clear: both;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+#wrapper {
+    background: url("../img/content_bg.jpg") repeat-y scroll center top transparent;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    background-position-y: 291px;
+}
+
+/* ==========================================================================
+   Kitten Assassins Header Styles
+   ========================================================================== */
+
+#header_outer {
+    background: url("../img/header_bg.jpg") no-repeat scroll center bottom transparent;
+    height: 611px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+#header {
+    height: 611px;
+    margin: 0 auto;
+    text-align: center;
+    width: 960px;
+    position: relative;
+}
+
+.headerlinks {
+    width: 125px;
+    text-align: center;
+    position: absolute;
+    top: 187px;
+    left: 789px;
+}
+
+a:hover.linkfade{
+    opacity: .8;
+}
+
+.headerlinks ul{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+
+.headerlinks li {
+    padding-bottom: 22px;
+}
+
+a.logo {
+    display:block;
+    position: absolute;
+    width: 639px;
+    height: 425px;
+    top: 24px;
+    left: 163px;
+    z-index: 10;
+    background: url("../img/logo.png") no-repeat scroll center top transparent;   
+}
+
+a.downloadgame {
+    display: block;
+    position: absolute;
+    width: 286px;
+    height: 50px;
+    top: 18px;
+    left: 810px;
+    z-index: 20;
+}
+
+a.tinyplasticmen {
+    display: block;
+    position: absolute;
+    width: 230px;
+    height: 217px;
+    top: 90px;
+    left: 0px;
+    z-index: 20;
+    background: url("../img/TPM_link.png") no-repeat scroll center top transparent; 
+}
+
+a:hover.tinyplasticmen {
+    opacity: .8;
+}
+
+.social {
+    position: absolute;
+    width: 80px;
+    height: 35px;
+    left: 441px;
+    top: 370px;
+    z-index: 30;
+}
+#topnav {
+    width: 500px;
+    position: absolute;
+    top: 420px;
+    left: 0;
+    z-index: 30;
+}
+
+#topnav ul {
+    height: 64px;
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+#topnav li {
+    display: block;
+    height: 64px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+}
+
+#topnav li a {
+    background-color: transparent;
+    display: block;
+    height: 64px;
+    width: 159px;
+    text-indent: -9000px;
+}
+
+#topnav_home li {
+    width: 140px;
+    height: 64px;
+}
+
+#topnav_contest li {
+    width: 159px;
+    height: 64px;
+}
+
+#topnav_game li {
+    width: 133px;
+    height: 64px;
+}
+
+#topnav_create li {
+    width: 159px;
+    height: 64px;
+}
+
+#topnav_gallery li {
+    width: 140px;
+    height: 64px;
+}
+
+#topnav_home a {
+    background: url("../img/topnav_home.png") no-repeat scroll 0 -64px transparent;
+}
+
+#topnav_home a:hover, #topnav_home a.active {
+    background: url("../img/topnav_home.png") no-repeat scroll 0 0 transparent;
+}
+
+#topnav_contest a {
+    background: url("../img/topnav_contest.png") no-repeat scroll 0 -64px transparent;
+    margin-right: 5px;
+}
+
+#topnav_contest a:hover, #topnav_contest a.active {
+    background: url("../img/topnav_contest.png") no-repeat scroll 0 0 transparent;
+}
+
+#topnav_game a {
+    background: url("../img/topnav_game.png") no-repeat scroll 0 -64px transparent;
+    margin-right: -15px;
+}
+
+#topnav_game a:hover, #topnav_game a.active {
+    background: url("../img/topnav_game.png") no-repeat scroll 0 0 transparent;
+}
+
+#topnav_create a {
+    background: url("../img/topnav_create.png") no-repeat scroll 0 -64px transparent;
+    margin-right: 5px;
+}
+
+#topnav_create a:hover, #topnav_create a.active {
+    background: url("../img/topnav_create.png") no-repeat scroll 0 0 transparent;
+}
+
+#topnav_gallery a {
+    background: url("../img/topnav_gallery.png") no-repeat scroll 0 -64px transparent;
+}
+
+#topnav_gallery a:hover, #topnav_gallery a.active {
+    background: url("../img/topnav_gallery.png") no-repeat scroll 0 0 transparent;
+}
+
+
+/* ==========================================================================
+   Kitten Assassins Content Styles
+   ========================================================================== */
+
+#content {
+    margin: 0 auto;
+    text-align: left;
+    width: 960px;
+    min-height: 500px;
+    padding-bottom: 165px;
+    padding-top: 20px;
+}
+
+.home_gamebox {
+    margin-top: -134px;
+    padding-bottom: 600px;
+}
+
+.home_gamebox_header {
+    background: url("../img/home_playheader.png") no-repeat;
+    width: 382px;
+    height: 47px;
+    padding-left: 195px;
+    padding-right: 15px;
+    padding-top: 80px;
+    margin-left: 177px;
+    
+}
+
+.home_gamebox_video {
+    background: url("../img/TEMP_video.png") no-repeat;
+    width: 577px;
+    height: 352px;
+    margin-left: 190px;
+}
+
+.home_gamebox_footer {
+    background: url("../img/home_playfooter.png") no-repeat;
+    width: 962px;
+    height: 295px;
+    position: relative;
+}
+.home_gamebox_links {
+    position: absolute;
+    left:378px;
+    top:18px;
+    width: 330px;
+    height: 36px;
+}
+a.home_gamebox_links {
+    padding-right: 8px;
+}
+.home_gamebox_footertext {
+    position: absolute;
+    left: 262px;
+    top: 88px;
+    width: 480px;
+    height: 50px; 
+}
+
+a.home_gamebox_download {
+    display: block;
+    position: absolute;
+    background: url("../img/downloadgame_btn.png") no-repeat;
+    width: 147px;
+    height: 69px;
+    left: 200px;
+    top: 10px;
+    text-indent: -9000px;
+}
+a:hover.home_gamebox_download {
+    opacity: .8;
+}
+
+.home_winnerplank {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 461px;
+    top: 1300px;
+    left: 0;
+    z-index: 10;
+    background: url("../img/home_woodslat.png") center;
+}
+
+.home_winnerplank_winner {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 461px;
+    top: 1300px;
+    left: 0;
+    background: url("../img/home_woodslat_winner.png") center;
+}
+
+.home_winnerplank_inner {
+    height: 451px;
+    margin: 0 auto;
+    text-align: center;
+    width: 960px;
+    position: relative;
+}
+.home_winnerplank_header {
+    background: url("../img/home_winnerbox_header.png");
+    display: block;
+    width: 587px;
+    height: 135px;
+    position: absolute;
+    left: 305px;
+    top: 81px;
+    z-index: 40;
+}
+
+.home_winnerplank_subnav {
+    position: relative;
+    padding-top: 177px;
+    padding-left: 230px;
+}
+
+.home_winnerplank_card {
+    width: 432px;
+    height: 393px;
+    display: block;
+    position: absolute;
+    top: 27px;
+    z-index: 40;
+    left: -71px;
+    background: url("../img/home_winner.png");
+    text-indent: -9000px;
+}
+
+.home_entercontest {
+    width: 162px;
+    height: 87px;
+    display: block;
+    position: absolute;
+    top: 100px;
+left: 332px;
+    z-index: 40;
+    background: url("../img/enter_contest.png");
+    text-indent: -9000px;
+}
+
+a:hover.home_entercontest {
+    opacity: .8;
+}
+
+.home_entercontest_text {
+    position: absolute;
+    left: 542px;
+    top: 124px;
+    width: 310px;
+    height: 55px;
+    z-index: 40;
+    text-align: left;
+}
+
+.home_createkitten {
+    width: 646px;
+    height: 68px;
+    position: relative;
+    display: block;
+    padding-top: 147px;
+    padding-left: 195px;
+    margin-left: 157px;
+    margin-top: -140px;
+    background: url("../img/home_create_btn.png")  no-repeat scroll 0 0 transparent;
+}
+
+a:hover.home_createkitten {
+    background: url("../img/home_create_btn.png") no-repeat scroll 0 -215px transparent;
+}
+
+a.home_battles {
+    width:518px;
+    height: 113px;
+    margin-left: 267px;
+    background: url("../img/home_battles_btn.png") no-repeat scroll 0 -113px transparent;
+    display: block;
+    position: relative;
+}
+
+a:hover.home_battles {
+    background: url("../img/home_battles_btn.png") no-repeat scroll 0 0 transparent;
+}
+
+.contest_battlebox_wrapper {
+    height: 693px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 461px;
+}
+
+.contest_battlebox {
+    background: url("../img/contest_box.png") no-repeat;
+    display: block;
+    width: 421px;
+    height: 533px;
+    padding-top: 91px;
+    padding-left: 39px;
+    float: left;
+    margin-right: 10px;
+}
+
+.contest_battlebox_header {
+    position: absolute;
+    display: block;
+    width: 371px;
+    height: 211px;
+    left: 294px;
+    top:-100px;
+    background: url("../img/title_kittenbattle.png");
+    z-index: 20px;
+    text-indent: -9000px;
+}
+
+.contest_battlebox_vote {
+    position: absolute;
+    display: block;
+    width: 160px;
+    height: 81px;
+    left: 376px;
+    top: 250px;
+    background: url("../img/vote.png");
+    z-index: 20px;
+    text-indent: -9000px;
+}
+
+.contest_timerbox {
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+    z-index: 40;
+    background: url("../img/timer_bg.png");
+    width: 288px;
+    height: 123px;
+    padding: 21px 46px 10px 46px;
+    margin-left: 293px;
+    margin-top: -42px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2a2a2a;
+}
+
+.contest_timerbox p {
+    padding-top: 18px;
+    line-height: 18px;
+}
+
+/* ==========================================================================
+   Kitten Assassins Footer Styles
+   ========================================================================== */
+
+#footer_outer {
+    clear: both;
+    position: relative;
+    height: 165px;
+    text-align: center;
+    width: 100%;
+    margin-top: -165px;
+    background: url("../img/footer.png") no-repeat scroll center top transparent;
+}
+
+#footer {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 12px;
+    color: #555555;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#footer a {
+    display: inline-block;
+    color: #555555;
+    padding-right: 8px;
+    padding-top: 10px;
+    margin-right: 8px;
+    border-right: solid 2px #555555;
+    height: 25px;
+    vertical-align: top;
+}
+
+#footer a:hover {
+    color: #6e6e6e;
+}
+
+#footer h1 {
+    display: block;
+    padding: 0;
+    text-indent: -9000px;
+}
+
+/* ==========================================================================
+   Kitten Assassins Text Styles
+   ========================================================================== */
+
+h1 {
+    text-indent: -9000px;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    height: 0;
+}
+
+h2 {
+    text-indent: -9000px;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    height: 0;
+}
+
+.callouts {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.kitty_name_1, .kitty_name_2 {
+    font-family:'Rockwell W01 Extra Bold';
+    font-size: 32px;
+    color:#c05135;
+    position: absolute;
+    display: block;
+    top: 558px;
+    width: 287px;
+    height: 50px;
+    text-align: center;
+}
+
+.kitty_name_1 {
+    left: 73px;
+}
+
+.kitty_name_2 {
+    left: 545px;
+}
+
+.timer {
+    letter-spacing: 18px;
+    font-family:'Avenir LT W01 95 Black';
+    font-size: 28px;
+    color: #2a2a2a;
+    padding-right: 7px;
+    margin-bottom: 25px;
+}
+
+.timer_introtext {
+    font-family:'Rockwell W01 Extra Bold';
+    font-size: 21px;
+    color: #2a2a2a;
+}
+
+/* ==========================================================================
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
